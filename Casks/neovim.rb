@@ -1,6 +1,6 @@
 cask 'neovim' do
   version '0.4.3'
-  sha256 :nocheck
+  sha256 :no_check
 
   # github.com/neovim/neovim was verified as official when first introduced to the cask
   url "https://github.com/neovim/neovim/releases/download/v#{version}/nvim-macos.tar.gz"
